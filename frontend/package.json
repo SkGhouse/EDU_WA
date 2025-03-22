@@ -1,0 +1,37 @@
+{
+  "name": "edu-app-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.161.0",
+    "framer-motion": "11.0.3",
+    "axios": "1.6.7",
+    "tailwindcss": "3.4.1",
+    "@react-three/fiber": "8.15.16",
+    "@react-three/drei": "9.96.5",
+    "socket.io-client": "4.7.4"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "prettier": "3.2.5",
+    "postcss": "8.4.35",
+    "autoprefixer": "10.4.17",
+    "@types/react": "18.2.55",
+    "@types/node": "20.11.16",
+    "@types/three": "0.161.2",
+    "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
